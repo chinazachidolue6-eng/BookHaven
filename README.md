@@ -39,7 +39,7 @@ Make sure you have the following installed:
 **1. Clone the repository**
 
 ```bash
-git clone chinazachidolue6-eng/BookHaven: A book discovery website
+git clone https://github.com/chinazachidolue6-eng/BookHaven
 ```
 
 **2. Navigate to the project directory**
