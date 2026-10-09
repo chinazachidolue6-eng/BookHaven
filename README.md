@@ -4,6 +4,8 @@ BookHaven is a React-based book library application designed to help users disco
 
 The project was built to practice and strengthen my frontend development skills by creating an interactive, user-friendly application with functional search and category filtering.
 
+[View Book Haven] (https://book-haven-beta-sooty.vercel.app/)
+
 ## ✨ Features
 
 * **📖 Book Collection:** Browse a collection of books displayed in an organized grid layout.
