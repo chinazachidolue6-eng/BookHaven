@@ -1,0 +1,18 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background: #f8f3ea;
+  color: #3e3027;
+  font-family: sans-serif;
+}
+
+:root {
+  --body-background: #f8f3ea;
+  --main-color: #3e3027;
+  --hero-bgc: #eadbc8;
+  --nav-links: #4a382d;
+}

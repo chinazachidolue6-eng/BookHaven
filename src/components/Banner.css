@@ -1,0 +1,31 @@
+.banner {
+  width: 90%;
+  height: fit-content;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  display: flex;
+  justify-self: center;
+  gap: 25px;
+  border-radius: 15px;
+  background-color: var(--hero-bgc);
+}
+
+.book-icon {
+  font-size: 50px;
+  margin-left: 10px;
+}
+
+.description {
+  width: 60%;
+
+  h2 {
+    font-family: Georgia, "Times New Roman", Times, serif;
+    font-size: 1.7em;
+  }
+
+  p {
+    margin-top: 10px;
+    letter-spacing: 0.8px;
+    line-height: 20px;
+  }
+}

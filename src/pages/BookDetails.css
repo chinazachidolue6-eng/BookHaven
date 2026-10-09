@@ -1,0 +1,139 @@
+.book-details {
+  width: 90%;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 40px 0 80px;
+}
+
+.back-button {
+  display: inline-block;
+  margin-bottom: 40px;
+  color: #3e3027;
+  text-decoration: none;
+  font-weight: 600;
+}
+
+.book-details-content {
+  display: grid;
+  grid-template-columns: 350px 1fr;
+  gap: 70px;
+  align-items: center;
+}
+
+.details-cover img {
+  width: 100%;
+  height: 500px;
+  object-fit: cover;
+  border-radius: 14px;
+  box-shadow: 0 15px 35px rgba(0, 0, 0, 0.12);
+}
+
+.details-genre {
+  color: #a55b38;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+.details-info h1 {
+  font-family: Georgia, serif;
+  font-size: 48px;
+  color: #3e3027;
+  margin: 10px 0;
+}
+
+.details-author {
+  font-size: 18px;
+  color: #75675e;
+}
+
+.details-rating {
+  margin: 25px 0;
+  font-size: 18px;
+  font-weight: 600;
+}
+
+.details-rating span {
+  color: #d99a35;
+  margin-right: 6px;
+}
+
+.details-summary {
+  max-width: 650px;
+  line-height: 1.8;
+  color: #5f554e;
+}
+
+.book-meta {
+  display: flex;
+  gap: 50px;
+  margin: 30px 0;
+}
+
+.book-meta div {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+
+.book-meta span {
+  font-size: 14px;
+  color: #8a7d73;
+}
+
+.book-meta strong {
+  color: #3e3027;
+}
+
+.details-favorite {
+  padding: 13px 22px;
+  border: none;
+  border-radius: 8px;
+  background: #a55b38;
+  color: white;
+  font-size: 15px;
+  cursor: pointer;
+}
+
+/* MEDIA QUERIES */
+
+@media (max-width: 750px) {
+  .book-details {
+    padding: 25px 0 60px;
+  }
+
+  .back-button {
+    margin-bottom: 25px;
+  }
+
+  .book-details-content {
+    grid-template-columns: 1fr;
+    gap: 35px;
+  }
+
+  .details-cover {
+    max-width: 280px;
+    margin: 0 auto;
+  }
+
+  .details-cover img {
+    height: 350px;
+  }
+
+  .details-info h1 {
+    font-size: 36px;
+  }
+
+  .details-author {
+    font-size: 16px;
+  }
+
+  .details-summary {
+    line-height: 1.7;
+  }
+
+  .book-meta {
+    gap: 25px;
+    flex-wrap: wrap;
+  }
+}

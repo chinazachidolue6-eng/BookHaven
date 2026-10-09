@@ -1,0 +1,143 @@
+.hero {
+  width: 100%;
+  min-height: 520px;
+  padding: 70px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 60px;
+  background-color: #eadbc8;
+}
+.hero-content {
+  flex: 1;
+  max-width: 600px;
+}
+.hero-label {
+  margin-bottom: 20px;
+  color: #a55b38;
+  font-size: 13px;
+  font-weight: 700;
+  letter-spacing: 2px;
+}
+.hero h1 {
+  margin-bottom: 25px;
+  color: #3e3027;
+  font-family: Georgia, serif;
+  font-size: clamp(40px, 6vw, 70px);
+  line-height: 0.95;
+  font-weight: 500;
+}
+.hero h1 span {
+  color: #a55b38;
+  font-style: italic;
+}
+.hero-description {
+  max-width: 500px;
+  margin-bottom: 30px;
+  color: #705e50;
+  font-size: 17px;
+  line-height: 1.7;
+}
+.hero-search {
+  width: 100%;
+  max-width: 520px;
+  height: 58px;
+  display: flex;
+  align-items: center;
+  padding: 6px 7px 6px 18px;
+  background-color: #fffdf8;
+  border: 1px solid #e4d7c7;
+  border-radius: 50px;
+}
+.search-icon {
+  margin-right: 10px;
+
+  color: #927f70;
+  font-size: 24px;
+}
+.hero-search input {
+  flex: 1;
+
+  min-width: 0;
+
+  border: none;
+  outline: none;
+
+  background: transparent;
+
+  color: #3e3027;
+  font-size: 1em;
+}
+
+.hero-search input::placeholder {
+  color: #a79585;
+}
+.hero-search button {
+  height: 46px;
+
+  padding: 0 40px;
+
+  border: none;
+  border-radius: 30px;
+
+  background-color: #a55b38;
+  color: white;
+
+  font-size: 16px;
+  font-weight: 600;
+
+  cursor: pointer;
+
+  transition: 0.2s ease;
+}
+
+.hero-search button:hover {
+  background-color: #874728;
+}
+
+@media (max-width: 900px) {
+  .hero {
+    padding: 50px;
+    gap: 40px;
+  }
+
+  .hero h1 {
+    font-size: 55px;
+  }
+}
+
+@media (max-width: 768px) {
+  .hero {
+    width: 100%;
+    min-height: auto;
+    margin: auto;
+    padding: 40px 25px;
+    flex-direction: column;
+    align-items: stretch;
+    gap: 35px;
+  }
+
+  .hero-content {
+    max-width: none;
+  }
+
+  .hero-label {
+    font-size: 11px;
+  }
+
+  .hero h1 {
+    font-size: clamp(44px, 13vw, 60px);
+  }
+
+  .hero-description {
+    font-size: 15px;
+  }
+
+  .hero-search {
+    height: 54px;
+  }
+
+  .hero-search button {
+    padding: 0 18px;
+  }
+}
